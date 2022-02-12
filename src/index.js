@@ -17,9 +17,9 @@ const customers = [];
 app.post("/account", (request, response) => {
   const {cpf, name} = request.body;
 
-  const id = uuidv4(); // irá gerar o nosso 'id', que será um uuid
+  const id = uuidv4(); // irá gerar o nosso 'id', que será um uuid.
 
-  // a função push() insere dados dentro do array
+  // a função push() insere dados dentro do array.
   customers.push({
     cpf,
     name,
